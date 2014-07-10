@@ -1,0 +1,1047 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"$up",
+				"$upload_folder"
+			],
+			[
+				"json_",
+				"json_decode"
+			],
+			[
+				"$class",
+				"$class_lower"
+			],
+			[
+				"$value",
+				"$value"
+			],
+			[
+				"$field",
+				"$field_options"
+			],
+			[
+				"s",
+				"section	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"history",
+				"Git: Commit history"
+			],
+			[
+				"blame",
+				"BlameHighlighter: Clear highlighted blames"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
+			[
+				"migration",
+				"Laravel Generate: Migration"
+			],
+			[
+				"phpunit",
+				"PHPUnit: Run"
+			],
+			[
+				"regr",
+				"Reg Replace: RegEx Input Sequencer"
+			],
+			[
+				"git hi",
+				"Git: Show Current File"
+			],
+			[
+				"prun",
+				"PHPUnit: Run"
+			],
+			[
+				"purun",
+				"PHPUnit: Run"
+			],
+			[
+				"unit",
+				"PHPUnit: Run"
+			],
+			[
+				"php",
+				"PHPUnit: Run"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"command",
+				"Shell Command"
+			],
+			[
+				"shell",
+				"Shell Command"
+			],
+			[
+				"controller",
+				"Laravel Artisan: Controller: Make"
+			],
+			[
+				"seed",
+				"Laravel Generate: Seed"
+			],
+			[
+				"shell cmd",
+				"Shell Command"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"custom",
+				"Laravel Artisan: Custom Command"
+			],
+			[
+				"artisan custom",
+				"Laravel Artisan: Custom Command"
+			],
+			[
+				"custom command",
+				"Laravel Artisan: Custom Command"
+			],
+			[
+				"run command",
+				"Laravel Artisan: Custom Command"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"log",
+				"Git: Log All"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"add.",
+				"Git: Add..."
+			],
+			[
+				"sniffer",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"phpcs",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"linter",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"migraio",
+				"Laravel Generate: Migration"
+			],
+			[
+				"facas",
+				"Laravel Facade: Hash"
+			],
+			[
+				"git ad",
+				"Git: Amend Commit"
+			],
+			[
+				"clear high",
+				"BlameHighlighter: Clear highlighted blames"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"gitst",
+				"Git: Show Tags"
+			],
+			[
+				"git ",
+				"Git: Commit history"
+			],
+			[
+				"git: ",
+				"Git: Commit history"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git status",
+			"derp *15",
+			"derp",
+			"derp = 5",
+			"6+5",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/hawaiitass.info",
+		"/C/ruby/ruby-devkit/config.yml",
+		"/C/wamp/www/shopping/public/new/desktop.ini",
+		"/C/Program Files (x86)/Grinding Gear Games/Path of Exile/Exiled Bot Beta v0.18b/Configuration/profile.ini",
+		"/C/wamp/www/shopping/.git/config",
+		"/C/Users/Andrew/AppData/Roaming/FileZilla/sitemanager.xml",
+		"/C/Users/Andrew/AppData/Roaming/FileZilla/filezilla.xml",
+		"/C/wamp/www/shopping/app/controllers/ResourceAPIController.php",
+		"/C/wamp/www/shopping/app/controllers/EventAPIController.php",
+		"/C/wamp/www/shopping/app/controllers/OfferAPIController.php",
+		"/C/wamp/www/shopping/app/controllers/DocumentationController.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php",
+		"/C/wamp/www/shopping/app/lang/en/docs.php",
+		"/C/wamp/www/shopping/app/controllers/ConsumableAPIController.php",
+		"/C/wamp/www/shopping/app/models/Place.php",
+		"/C/Users/Andrew/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/shopping/app/database/migrations/2014_05_19_212351_create_saves_table.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/wamp/www/shopping/app/models/User.php",
+		"/C/Users/Andrew/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/wamp/www/shopping/public/index.php",
+		"/C/wamp/www/shopping/vendor/phpunit/phpunit/src/Framework/Constraint/IsNull.php",
+		"/C/wamp/www/shopping/vendor/phpunit/php-token-stream/Tests/_files/classInScopedNamespace.php",
+		"/C/wamp/www/shopping/vendor/phpunit/phpunit/tests/_files/ExceptionInSetUpTest.php",
+		"/C/wamp/www/shopping/vendor/composer/installed.json",
+		"/C/wamp/www/shopping/app/routes.php",
+		"/C/wamp/www/shopping/vendor/symfony/routing/Symfony/Component/Routing/RouterInterface.php",
+		"/C/wamp/www/shopping/vendor/symfony/routing/Symfony/Component/Routing/Tests/Fixtures/missing_id.xml",
+		"/C/wamp/www/shopping/vendor/symfony/finder/Symfony/Component/Finder/Iterator/RecursiveDirectoryIterator.php",
+		"/C/wamp/www/shopping/app/models/Base.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+		"/C/wamp/www/shopping/vendor/nikic/php-parser/lib/PHPParser/BuilderFactory.php",
+		"/C/wamp/www/shopping/vendor/nikic/php-parser/lib/PHPParser/BuilderAbstract.php",
+		"/C/wamp/www/shopping/vendor/stack/builder/src/Stack/Builder.php",
+		"/C/wamp/www/shopping/vendor/nikic/php-parser/lib/PHPParser/Builder.php",
+		"/C/wamp/www/shopping/vendor/doctrine/cache/build.properties",
+		"/C/wamp/www/shopping/public/sb-admin-v2/buttons.html",
+		"/C/wamp/www/shopping/app/controllers/BaseController.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php",
+		"/C/wamp/www/shopping/app/views/pages/api/layout.blade.php",
+		"/C/wamp/www/shopping/app/models/Offer.php",
+		"/C/wamp/www/shopping/app/models/Event.php",
+		"/C/wamp/www/shopping/bootstrap/start.php",
+		"/C/wamp/www/shopping/app/filters.php",
+		"/C/wamp/www/shopping/app/controllers/PlaceAPIController.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/C/wamp/www/shopping/app/views/pages/forms/place.blade.php",
+		"/C/wamp/www/shopping/app/views/pages/forms/event.blade.php",
+		"/C/wamp/www/shopping/app/views/pages/forms/offer.blade.php",
+		"/C/wamp/www/shopping/public/upload/.gitignore",
+		"/C/wamp/www/shopping/public/upload/thumbnail/.gitignore",
+		"/C/wamp/www/shopping/public/upload/small/.gitignore",
+		"/C/wamp/www/shopping/public/upload/large/.gitignore",
+		"/C/wamp/www/shopping/app/views/pages/user.blade.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Database/Eloquent/ModelNotFoundException.php",
+		"/C/wamp/www/shopping/app/controllers/OfferController.php",
+		"/C/wamp/www/shopping/app/views/pages/offer.blade.php",
+		"/C/wamp/www/shopping/public/css/form.css",
+		"/C/wamp/www/shopping/vendor/phpunit/phpunit/tests/TextUI/filter-dataprovider-by-only-range.phpt",
+		"/C/wamp/www/shopping/vendor/phpunit/phpunit/src/Framework/Constraint/JsonMatches/ErrorMessageProvider.php",
+		"/C/wamp/www/shopping/vendor/symfony/dom-crawler/Symfony/Component/DomCrawler/Form.php",
+		"/C/wamp/www/shopping/app/views/pages/place.blade.php",
+		"/C/wamp/www/shopping/app/views/pages/event.blade.php",
+		"/C/wamp/www/shopping/app/views/pages/forms/user.blade.php",
+		"/C/wamp/www/shopping/app/database/migrations/2014_03_09_225831_create_users_table.php",
+		"/C/wamp/www/shopping/app/config/mail.php",
+		"/C/wamp/www/shopping/app/controllers/RemindersController.php",
+		"/C/wamp/www/shopping/app/database/migrations/2014_03_14_072529_create_offers_table.php",
+		"/C/wamp/www/shopping/app/database/migrations/2014_03_14_072559_create_events_table.php",
+		"/C/wamp/www/shopping/app/database/migrations/2014_03_14_231433_create_places_table.php",
+		"/C/wamp/www/shopping/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/File.php",
+		"/C/wamp/www/shopping/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/FileBag.php",
+		"/C/wamp/bin/apache/Apache2.4.4/bin/php.ini",
+		"/C/Users/Andrew/Dropbox/.komodo/7.0/php/5.3.5-1ubuntu7.4/php.ini",
+		"/C/wamp/www/shopping/app/config/app.php",
+		"/C/wamp/www/shopping/app/blade-macros.php",
+		"/C/wamp/www/shopping/app/database/seeds/PlacesTableSeeder.php",
+		"/C/wamp/www/shopping/app/database/seeds/OffersTableSeeder.php",
+		"/C/wamp/www/shopping/app/database/seeds/EventsTableSeeder.php",
+		"/I/wamp/www/shopping/info.php",
+		"/C/wamp/www/shopping/composer.json",
+		"/C/wamp/www/shopping/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Tests/Bundle/BundleTest.php",
+		"/C/wamp/www/shopping/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Bundle/Bundle.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php",
+		"/C/wamp/www/shopping/app/views/password/reset.blade.php",
+		"/C/wamp/www/shopping/app/views/password/remind.blade.php",
+		"/C/Users/Andrew/Desktop/users.json",
+		"/C/wamp/www/shopping/app/views/remind.blade.php",
+		"/C/wamp/www/shopping/app/views/login.blade.php",
+		"/C/wamp/www/shopping/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php",
+		"/C/wamp/www/shopping/app/lang/en/app.php",
+		"/C/wamp/www/shopping/app/views/pages/lists/layout.blade.php",
+		"/C/wamp/www/shopping/app/views/pages/forms/password-reminder.blade.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Auth/Reminders/PasswordBroker.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Auth/Reminders/RemindableInterface.php",
+		"/C/wamp/www/shopping/app/storage/logs/laravel.log",
+		"/C/wamp/logs/apache_error.log",
+		"/C/wamp/logs/access.log",
+		"/C/wamp/logs/log_dir",
+		"/C/wamp/www/shopping/app/views/pages/forms/layout.blade.php",
+		"/C/wamp/www/shopping/app/controllers/UserAPIController.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Relation.php",
+		"/C/wamp/www/shopping/app/controllers/ResourceController.php",
+		"/C/Users/Andrew/Downloads/search (1)",
+		"/C/Users/Andrew/Downloads/search",
+		"/C/Users/Andrew/Desktop/gplus-quickstart-csharp-master/README.md",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphToMany.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Validation/Validator.php",
+		"/C/wamp/www/shopping/public/css/style.css",
+		"/C/wamp/www/shopping/app/lang/en/validation.php",
+		"/C/wamp/www/shopping/vendor/nikic/php-parser/lib/PHPParser/NodeVisitorAbstract.php",
+		"/C/wamp/www/shopping/app/config/view.php",
+		"/C/wamp/www/shopping/vendor/laravel/framework/src/Illuminate/Validation/Factory.php",
+		"/C/wamp/www/shopping/app/controllers/UserController.php",
+		"/C/wamp/www/shopping/app/views/pages/lists/places.blade.php",
+		"/C/wamp/www/shopping/app/views/pages/lists/events.blade.php",
+		"/C/wamp/www/shopping/app/views/pages/lists/users.blade.php",
+		"/C/wamp/www/shopping/app/views/pages/lists/offers.blade.php",
+		"/C/wamp/www/shopping/public/css/jquery.dataTables.css",
+		"/C/wamp/www/shopping/public/js/chosen/chosen.css",
+		"/C/wamp/www/shopping/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/test/site/form_data_encoded_form.html",
+		"/C/wamp/www/shopping/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/test/site/form_with_mixed_post_and_get.html",
+		"/C/wamp/www/shopping/app/controllers/AuthAPIController.php",
+		"/C/wamp/www/shopping/vendor/lucadegasperi/oauth2-server-laravel/src/LucaDegasperi/OAuth2Server/Filters/OAuthFilter.php",
+		"/C/wamp/www/shopping/app/controllers/CustomOAuthFilter.php",
+		"/C/wamp/www/shopping/vendor/lucadegasperi/oauth2-server-laravel/src/filters.php",
+		"/C/wamp/www/shopping/vendor/league/oauth2-server/src/League/OAuth2/Server/Resource.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"heroku",
+			"Jesis",
+			"function attach(",
+			"public attach(",
+			"public",
+			"function detach(",
+			"\\n\\t+\\{",
+			"$access_token",
+			"Lang::get('docs.access_token')",
+			"em>",
+			"b>",
+			"merge",
+			"array_merge",
+			"\"date\"",
+			"$this->fromPlaceParam()",
+			"$this->latLongParams()",
+			"$this->multipleMetaParams()",
+			"			\"access_token\" => Lang::get('docs.access_token'),\n		],",
+			"		],",
+			"$this->singleMetaParams()",
+			"addDateParams",
+			"array_merge($this->singleMetaParams())",
+			"array_merge(),$this->latLongParams($this->multipleMetaParams()),",
+			"array_merge(),$this->fromPlaceParam($this->latLongParams($this->multipleMetaParams()))",
+			"addFromPlaceParam",
+			"addLatLongParams",
+			"array_merge(),$this->singleMetaParams(",
+			"array_merge(),$this->singleMetaParams(),",
+			"addSingleMetaParams",
+			"array_merge(),$this->multipleMetaParams(),",
+			"array_merge();",
+			"addMultipleMetaParams",
+			"\"Parameters\" => ",
+			"$order",
+			"$order = $this->getOrderParam();",
+			"getCachedCount",
+			"public get",
+			"return $query",
+			"$table",
+			"getTable",
+			"$table",
+			"return $table",
+			"$table",
+			"class Eloquent",
+			"Eloquent",
+			"class eloquent",
+			"eloquent",
+			"users",
+			"status",
+			"status: 1",
+			"Response::json",
+			"asset(",
+			"function secure_asset",
+			"skip",
+			"function forPage",
+			"filter",
+			"ImageAttribute",
+			"Image",
+			"small",
+			"appends",
+			"fileinfo",
+			"image|",
+			"niceSubmit",
+			"\"\\d+\":",
+			"function text",
+			"getUser",
+			"sendSwiftMessage",
+			"mail(",
+			"mail",
+			"getReminderEmail",
+			"_getReversePath",
+			"method",
+			"\\n\\t+\\{",
+			"\\n\\t\\{",
+			"Un-Save",
+			"Save Offer",
+			"$model_small",
+			"$model_plural",
+			"$model_small",
+			"$model_plural",
+			"function getRelated",
+			"getRelated",
+			"getRelatedIds",
+			"array_only(",
+			"create_validation",
+			"getValidatedInput",
+			"getUpdateValidation",
+			"getCreateValidation",
+			"function make(",
+			"make(",
+			"passes",
+			"input",
+			"$this->rules",
+			"$rules",
+			"$rule",
+			"rules",
+			"getUpdateValidation",
+			"$this->model",
+			"return $this->model",
+			"getValueAttribute",
+			"input(",
+			"input",
+			"checkable",
+			"checkbox",
+			"session =",
+			"session",
+			"getValueAttribute",
+			"function input",
+			"input",
+			"function text(",
+			"$map",
+			"hover",
+			"table-hover",
+			"table",
+			"Access token is not valid",
+			"forbidden",
+			"class JsonResponse",
+			"oauth",
+			"class Exception",
+			"class OAuth2Exception",
+			"class ClientException",
+			"class OAuthFilter",
+			"filter('oauth'",
+			"$this->files",
+			"function only(",
+			"h4",
+			"h3",
+			"h2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" {",
+			"$this->access_token",
+			"$access_token",
+			"u>",
+			"em>",
+			"[\n					\"from_place\" => Lang::get('docs.from_place'),\n				]",
+			"[\n					\"lat\" => Lang::get('docs.lat'),\n					\"long\" => Lang::get('docs.long'),\n					\"radius\" => Lang::get('docs.radius'),\n				]",
+			"[\n					\"lat\" => \"Specify a latitude value to search around.\",\n					\"long\" => \"Specify a longitude value to search around.\",\n					\"radius\" => \"The radius used when doing a lat/long query.\",\n				]",
+			"[\n					\"access_token\" => Lang::get('docs.access_token'),\n					\"page\" => Lang::get('docs.page'),\n					\"limit\" => Lang::get('docs.limit'),\n					\"count\" => Lang::get('docs.count'),\n					\"keyword\" => Lang::get('docs.keyword'),\n				]",
+			"					\"access_token\" => Lang::get('docs.access_token'),\n				],",
+			"			],",
+			"[\n			\"access_token\" => Lang::get('docs.access_token'),\n		]",
+			"$this->dateParams",
+			"$this->dateParams()",
+			"$this->singleMetaParams()",
+			"array_merge($this->multipleMetaParams(), $this->latLongParams()),",
+			"array_merge($this->multipleMetaParams(), $this->latLongParams(), $this->fromPlaceParam())",
+			"fromPlaceParam",
+			"latLongParams",
+			"array_merge($this->singleMetaParams(),",
+			"array_merge($this->singleMetaParams()),",
+			"singleMetaParams",
+			"array_merge($this->multipleMetaParams()),",
+			"array_merge(),",
+			"multipleMetaParams",
+			"\"Parameters\" => array_merge();",
+			"$date_filter = Input::get('date');",
+			"",
+			"{",
+			"Un-save",
+			"follow",
+			"store_validation",
+			"longitude",
+			"\"parent_id\" => 5,",
+			"\"parent_id\" => 4,",
+			"\"parent_id\" => 2,",
+			"git checkout cbdabeb ",
+			"",
+			"10:00am - 8:00pm",
+			"",
+			"Place",
+			"Event",
+			"place",
+			"event",
+			"{",
+			"http://biomanufacturing.org/sites/default/files",
+			"biomanufacturing.org/old/",
+			"http://biomanufacturing.org/sites/default/files/clip_image$1",
+			"",
+			"http://biomanufacturing.org/sites/default/files/styles/large/public/",
+			"biomanufacturing.org/old/",
+			"http://biomanufacturing.org/sites/default/files/styles/large/public/",
+			"Parameters",
+			"$1:$2",
+			"=>",
+			"]",
+			"[",
+			"]",
+			"[",
+			"$1:$2",
+			"\"$1\"=>",
+			"$1=>",
+			"$1:$2:$3",
+			"%1:%2:%3",
+			":",
+			"]",
+			"[",
+			"=>",
+			"[",
+			"]",
+			"[",
+			"=>",
+			"[",
+			"]",
+			"[",
+			"=>",
+			"[",
+			"]",
+			"[",
+			"=>",
+			"]",
+			"[",
+			"Place",
+			"Event",
+			"Offer",
+			"str_replace(' '",
+			"str_replace('', '_', ",
+			"id=\"{{snake_case($tab_name)}}\"",
+			"=>",
+			"[",
+			"]",
+			"[",
+			"=>",
+			"]",
+			"[",
+			"=>",
+			"]",
+			"[",
+			"]",
+			"[",
+			"=>",
+			"[",
+			"]",
+			"[",
+			"",
+			",",
+			"",
+			"AuthorizationServer::",
+			"client",
+			"Oauthclient",
+			"website",
+			"events",
+			"Place",
+			"place",
+			"$place",
+			"'place'",
+			".place",
+			"Place::",
+			"place",
+			"modalLabel",
+			"name",
+			"	",
+			"    ",
+			"        ",
+			"    ",
+			") {",
+			"_count",
+			");"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 255.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 157.0
+	},
+	"output.sftp":
+	{
+		"height": 133.0
+	},
+	"project": "hawaiitass.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"builder",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php"
+			],
+			[
+				"model",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php"
+			],
+			[
+				"modelevent",
+				"app\\models\\Event.php"
+			],
+			[
+				"offer",
+				"app\\models\\Offer.php"
+			],
+			[
+				"formoffer",
+				"app\\views\\pages\\forms\\offer.blade.php"
+			],
+			[
+				"formevent",
+				"app\\views\\pages\\forms\\event.blade.php"
+			],
+			[
+				"formplace",
+				"app\\views\\pages\\forms\\place.blade.php"
+			],
+			[
+				"event.blade",
+				"app\\views\\pages\\event.blade.php"
+			],
+			[
+				"user.bla",
+				"app\\views\\pages\\user.blade.php"
+			],
+			[
+				"httpfoundation/file",
+				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\File.php"
+			],
+			[
+				"mail/mailer.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php"
+			],
+			[
+				"passwordbroker.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Reminders\\PasswordBroker.php"
+			],
+			[
+				"abstractsmtptransport.php",
+				"vendor\\swiftmailer\\swiftmailer\\lib\\classes\\Swift\\Transport\\AbstractSmtpTransport.php"
+			],
+			[
+				"formuser",
+				"app\\views\\pages\\forms\\user.blade.php"
+			],
+			[
+				"userapicontroller",
+				"app\\controllers\\UserAPIController.php"
+			],
+			[
+				"user.blad",
+				"app\\views\\pages\\user.blade.php"
+			],
+			[
+				"user",
+				"app\\models\\User.php"
+			],
+			[
+				"relation",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Relations\\Relation.php"
+			],
+			[
+				"belongstomany",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany.php"
+			],
+			[
+				"morphtomany",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Relations\\MorphToMany.php"
+			],
+			[
+				"validator.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Validation\\Validator.php"
+			],
+			[
+				"c",
+				"composer.json"
+			],
+			[
+				"illuminate/validation/validator",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Validation\\Validator.php"
+			],
+			[
+				"dashboard",
+				"app\\views\\pages\\dashboard.blade.php"
+			],
+			[
+				"querybuilder",
+				"vendor\\doctrine\\dbal\\lib\\Doctrine\\DBAL\\Query\\QueryBuilder.php"
+			],
+			[
+				"route",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php"
+			],
+			[
+				"controller",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php"
+			],
+			[
+				"userblade",
+				"app\\views\\pages\\user.blade.php"
+			],
+			[
+				"symfony/component/httpfoundation/file/file",
+				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\File.php"
+			],
+			[
+				"apicontrol",
+				"app\\controllers\\ResourceAPIController.php"
+			],
+			[
+				"apicontroller",
+				"app\\controllers\\AuthAPIController.php"
+			],
+			[
+				"listlayout",
+				"app\\views\\pages\\lists\\layout.blade.php"
+			],
+			[
+				"event",
+				"app\\models\\Event.php"
+			],
+			[
+				"user.b",
+				"app\\views\\pages\\user.blade.php"
+			],
+			[
+				"splfileinfo",
+				"vendor\\symfony\\finder\\Symfony\\Component\\Finder\\SplFileInfo.php"
+			],
+			[
+				"file.php",
+				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\File.php"
+			],
+			[
+				"usercontro",
+				"app\\controllers\\UserController.php"
+			],
+			[
+				"symfony/component/httpfoundation/file/uploadedfile",
+				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\UploadedFile.php"
+			],
+			[
+				"illuminate/database/eloquent/model",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php"
+			],
+			[
+				"sb-am",
+				"public\\js\\sb-admin.js"
+			],
+			[
+				"resourceserverfacade",
+				"vendor\\lucadegasperi\\oauth2-server-laravel\\src\\LucaDegasperi\\OAuth2Server\\Facades\\ResourceServerFacade.php"
+			],
+			[
+				"fluent",
+				"vendor\\lucadegasperi\\oauth2-server-laravel\\src\\LucaDegasperi\\OAuth2Server\\Repositories\\FluentClient.php"
+			],
+			[
+				"authorization",
+				"vendor\\league\\oauth2-server\\src\\League\\OAuth2\\Server\\Authorization.php"
+			],
+			[
+				"authorizationserver",
+				"vendor\\lucadegasperi\\oauth2-server-laravel\\src\\LucaDegasperi\\OAuth2Server\\Proxies\\AuthorizationServerProxy.php"
+			],
+			[
+				"place",
+				"app\\controllers\\PlaceAPIController.php"
+			],
+			[
+				"server/resource",
+				"vendor\\league\\oauth2-server\\src\\League\\OAuth2\\Server\\Resource.php"
+			],
+			[
+				"document",
+				"app\\controllers\\DocumentationController.php"
+			],
+			[
+				"model.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php"
+			],
+			[
+				"basecon",
+				"app\\controllers\\BaseController.php"
+			],
+			[
+				"api",
+				"app\\controllers\\APIController.php"
+			],
+			[
+				"documentat",
+				"app\\controllers\\DocumentationController.php"
+			],
+			[
+				"auth",
+				"app\\views\\pages\\auth.blade.php"
+			],
+			[
+				".css",
+				"public\\css\\style.css"
+			],
+			[
+				"left",
+				"app\\views\\sections\\left-nav.blade.php"
+			],
+			[
+				"doc",
+				"app\\controllers\\DocumentationController.php"
+			],
+			[
+				"layout",
+				"app\\views\\layout.blade.php"
+			],
+			[
+				"leftn",
+				"app\\views\\sections\\left-nav.blade.php"
+			],
+			[
+				"routes",
+				"app\\routes.php"
+			],
+			[
+				"users",
+				"app\\views\\pages\\users.blade.php"
+			],
+			[
+				"usercontrol",
+				"app\\controllers\\UserController.php"
+			],
+			[
+				"migrator.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php"
+			],
+			[
+				"places",
+				"app\\database\\migrations\\2014_03_14_231433_create_places_table.php"
+			],
+			[
+				"userseed",
+				"app\\database\\seeds\\UserTableSeeder.php"
+			],
+			[
+				"user.blade",
+				"app\\views\\pages\\forms\\user.blade.php"
+			],
+			[
+				"viewnv",
+				"app\\views\\sections\\left-nav.blade.php"
+			],
+			[
+				"publiccss",
+				"public\\css\\sb-admin.css"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"rout",
+				"app\\routes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"J:\\Users\\drew\\node\\shixish\\impracticalme.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

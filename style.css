@@ -490,7 +490,7 @@ a.frmore{
 }
 
 #preface-area {
-  background: none repeat scroll 0 0 #4ea1c2;
+  background: #4ea1c2 url('images/small-water.jpg') repeat;
   border-bottom: 5px solid #55b0d4;
   border-top: 5px solid #55b0d4;
   padding: 40px 0 20px;
@@ -1168,7 +1168,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 }
 
 .red-section{
-  background: none repeat scroll 0 0 #4ea1c2;
+  background: #4ea1c2 url('images/small-water.jpg') repeat;
   border-bottom: 5px solid #55b0d4;
   border-top: 5px solid #55b0d4;
   padding: 50px 0;
@@ -1281,7 +1281,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   display: table;
   height: 500px;
   width: 100%;
-  background: url('images/header-bg.jpg') no-repeat center center fixed;
+  background: url('images/header-bg.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

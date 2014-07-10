@@ -197,7 +197,7 @@
     </div>
   </div>
   
-  <div class="callout-5">
+  <div class="callout-2">
     <div class="vert-text">
       <p class="huge">Mobility to move forward<?php /*print $site_slogan;*/ ?></p>
     </div>
@@ -328,7 +328,7 @@
     </div>
   </div>
   
-  <div class="callout-2">
+  <div class="callout-3">
     <div class="vert-text">
       <p class="huge">Stay one-step ahead of the competition</p>
     </div>

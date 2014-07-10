@@ -1204,12 +1204,36 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   padding: 40px 0;
 }
 
+.mobile-cutout-bg{
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url('images/devices-2-blur.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.web-cutout-bg{
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url('images/finger-tablet.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .callout-1 {
   color: #ffffff;
   display: table;
   height: 400px;
   width: 100%;
-  background: url('images/callout-bg-1.jpg') no-repeat center center fixed;
+  background: url('images/callout-bg-1-blur.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1221,7 +1245,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   display: table;
   height: 400px;
   width: 100%;
-  background: url('images/callout-bg-2.jpg') no-repeat center center fixed;
+  background: url('images/callout-bg-2-blur.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1464,6 +1488,7 @@ a.btn{
   padding: 20px 10px;
   outline: 1px solid #e7e7e7;
   background: #fcfcfc;
+  box-shadow: #ccc 5px 5px 10px;
 }
 
 /*.who-we-are-row img{

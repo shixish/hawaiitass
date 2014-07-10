@@ -197,7 +197,7 @@
     </div>
   </div>
   
-  <div class="callout-2">
+  <div class="callout-5">
     <div class="vert-text">
       <p class="huge">Mobility to move forward<?php /*print $site_slogan;*/ ?></p>
     </div>
@@ -328,7 +328,7 @@
     </div>
   </div>
   
-  <div class="callout-5">
+  <div class="callout-2">
     <div class="vert-text">
       <p class="huge">Stay one-step ahead of the competition</p>
     </div>
@@ -640,26 +640,32 @@
         </div>
       </div>
       <div class="row">
-       <div class="col-md-6 col-md-offset-3">
-          <p>
-            <strong>Phone:</strong> 808-315-2727 and 808-987-9822<br>
-            <strong>Email:</strong> <a href="mailto:ZinatUSA@gmail.com">ZinatUSA@gmail.com</a>, <a href="mailto:contacts@HawaiiTASS.com">contacts@HawaiiTASS.com</a><br>
-          </p>
-          
-          <p>
+        <div class="col-md-6 col-md-offset-3">
+          <div class="row text-center">
+            <div class="col-xs-4">
+              <strong>Phone:</strong><br>
+              808-315-2727<br>
+              808-987-9822<br>
+            </div>
+            <div class="col-xs-4">
+              <strong>Email:</strong><br>
+              <a href="mailto:ZinatUSA@gmail.com">ZinatUSA@gmail.com</a><br>
+              <a href="mailto:contacts@HawaiiTASS.com">contacts@HawaiiTASS.com</a><br>
+            </div>
+            <div class="col-xs-4">
+              <strong>Address:</strong><br>
+              614 Kilauea Ave, Suite 101<br>
+              Hilo, HI 96720, USA
+            </div>
+          </div>
+          <p class="row text-center"><em>Customer parking is available on the backside of our office building.</em></p>
+          <div class="row text-center">
             <a href="<?php print url('contact'); ?>" class="btn btn-success btn-lg" role="button">Contact Form</a>
-          </p>
-          
-          <p>
-            Hawaii TASS<br>
-            614 Kilauea Ave, Suite 101<br>
-            Hilo, HI 96720<br>
-            USA<br>
-          </p>
-          
-          <p>
-            <em>Customer parking is available on the backside of our office building.</em>
-          </p>
+          </div>
+          <br>
+          <div class="row">
+            
+          </div>
   <!--           <form method="post" action="" id="contact_form">
               <p>
                 <label for="name">Name *</label><br>

@@ -280,51 +280,115 @@
           <hr>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6 col-md-3 text-center">
-          <div class="service-item">
+      <div id="app-slides-nav" class="row">
+        <!-- <div class="col-sm-6 col-md-3 text-center">
+          <div class="nav-item">
             <a href="http://www.getshopsueyapp.com/" target="_blank">
               <img src="<?php print url($directory.'/images/shopsuey.png', array('absolute'=>true)); ?>" alt="<?php print t('Shopsuey'); ?>" height="144" width="144" />
               <h4>ShopSuey</h4>
             </a>
             <a href="https://play.google.com/store/apps/details?id=aloha.shopsuey" target="_blank"><i class="download-icon fa fa-android"></i></a>
-            <p>We have developed the Android version of the popular ShopSuey marketing app. ShopSuey is a revolutionary shopping app that allows users to find out what’s happening in malls or marketplaces all around them, in real time.</p>
+            <p class="description">We have developed the Android version of the popular ShopSuey marketing app. ShopSuey is a revolutionary shopping app that allows users to find out what’s happening in malls or marketplaces all around them, in real time.</p>
+          </div>
+        </div> -->
+        <div class="col-sm-6 col-md-3 text-center">
+          <div class="nav-item">
+            <img src="<?php print url($directory.'/images/shoppingguru.png', array('absolute'=>true)); ?>" alt="<?php print t('Shopsuey'); ?>" height="144" width="144" />
+            <h4>ShoppingGuru</h4>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 text-center">
-          <div class="service-item">
-            <a href="http://www.steinwall.com/" target="_blank">
-              <img src="<?php print url($directory.'/images/steinwall.png', array('absolute'=>true)); ?>" alt="<?php print t('Steinwall Inc.'); ?>" height="144" width="144" />
-              <h4>Steinwall Plastic Matrix</h4>
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=hawaiitass.android.resin&hl=en" target="_blank"><i class="download-icon fa fa-android"></i></a>
-            <a href="https://itunes.apple.com/us/app/steinwall-plastic-matrix/id566245668?mt=8" target="_blank"><i class="download-icon fa fa-apple"></i></a>
-            <a href="http://www.windowsphone.com/en-us/store/app/plastic-matrix/d7b542ec-4390-4f87-af26-eb01f9a6b096" target="_blank"><i class="download-icon fa fa-windows"></i></a>
-            <p>Our team developed an iOS, Android, and Windows Phone app for Stienwall, Inc. The application helps users in the difficult task of determine what plastic is best suited for their needs. Many formulations and additives create more than 85,000 thermoplastics, this app will make your life easier.</p>
+          <div class="nav-item">
+            <img src="<?php print url($directory.'/images/steinwall.png', array('absolute'=>true)); ?>" alt="<?php print t('Steinwall Inc.'); ?>" height="144" width="144" />
+            <h4>Steinwall Plastic Matrix</h4>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 text-center">
-          <div class="service-item">
-            <a href="http://chaosanswers.com/" target="_blank">
-              <img src="<?php print url($directory.'/images/chaos-answers.png', array('absolute'=>true)); ?>" alt="<?php print t('Chaos Answers'); ?>" height="144" width="144" />
-              <h4>Chaos Answers</h4>
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=hawaiitass.android.steinwallmodel&hl=en" target="_blank"><i class="download-icon fa fa-android"></i></a>
-            <a href="http://www.windowsphone.com/en-us/store/app/chaos-models/a24b2fad-eee9-4ba5-b875-d5d35f864b68" target="_blank"><i class="download-icon fa fa-windows"></i></a>
-            <p>Chaos Answers app helps managers know how to adapt their view of changing circumstances quickly and effectively. Our team developed the Android and Windows Phone app.</p>
+          <div class="nav-item">
+            <img src="<?php print url($directory.'/images/chaos-answers.png', array('absolute'=>true)); ?>" alt="<?php print t('Chaos Answers'); ?>" height="144" width="144" />
+            <h4>Chaos Answers</h4>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 text-center">
-          <div class="service-item">
-            <a href="http://www.steinwall.com/" target="_blank">
-              <img src="<?php print url($directory.'/images/pimm.png', array('absolute'=>true)); ?>" alt="<?php print t('Steinwall Inc.'); ?>" height="144" width="144" />
-              <h4>Steinwall PIMM iPad App</h4>
-            </a>
-            <a href="https://itunes.apple.com/us/app/pimm-app/id640015509?mt=8" target="_blank"><i class="download-icon fa fa-apple"></i></a>
-            <p>This app plays PIMMs, Production Instructions Multi Media, which are video versions of instruction manuals for parts being produced at Steinwall Incorporated. We developed the iPad app.</p>
+          <div class="nav-item">
+            <img src="<?php print url($directory.'/images/pimm.png', array('absolute'=>true)); ?>" alt="<?php print t('Steinwall Inc.'); ?>" height="144" width="144" />
+            <h4>Steinwall PIMM iPad App</h4>
           </div>
         </div>
-      </div>
+      </div><!-- /.row -->
+      <div class="row">
+        <div id="app-slides" class="flexslider">
+          <ul class="slides">
+            <li>
+              <div class="col-sm-12 col-md-8 text-center">
+                <a href="http://getshoppingguru.com/" target="_blank">
+                  <img src="<?php print url($directory.'/images/screenshots/shoppingguru.jpg', array('absolute'=>true)); ?>">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-4 text-center">
+                <a href="http://getshoppingguru.com/" target="_blank">
+                  <h4>ShoppingGuru</h4>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=hawaiitass.shopping" target="_blank"><i class="download-icon fa fa-android"></i></a>
+                <p>
+                  Shopping Guru reinvents the users’ shopping experience in Bangladesh. It is a smarter way to shop that helps you save time and money.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="col-sm-12 col-md-8 text-center">
+                <a href="http://www.steinwall.com/" target="_blank">
+                  <img src="<?php print url($directory.'/images/screenshots/steinwall.jpg', array('absolute'=>true)); ?>">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-4 text-center">
+                <a href="http://www.steinwall.com/" target="_blank">
+                  <h4>Steinwall Plastic Matrix</h4>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=hawaiitass.android.resin&hl=en" target="_blank"><i class="download-icon fa fa-android"></i></a>
+                <a href="https://itunes.apple.com/us/app/steinwall-plastic-matrix/id566245668?mt=8" target="_blank"><i class="download-icon fa fa-apple"></i></a>
+                <a href="http://www.windowsphone.com/en-us/store/app/plastic-matrix/d7b542ec-4390-4f87-af26-eb01f9a6b096" target="_blank"><i class="download-icon fa fa-windows"></i></a>
+                <p>
+                  Our team developed an iOS, Android, and Windows Phone app for Stienwall, Inc. The application helps users in the difficult task of determine what plastic is best suited for their needs. Many formulations and additives create more than 85,000 thermoplastics, this app will make your life easier.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="col-sm-12 col-md-8 text-center">
+                <a href="http://chaosanswers.com/" target="_blank">
+                  <img src="<?php print url($directory.'/images/screenshots/chaos-answers-app.jpg', array('absolute'=>true)); ?>">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-4 text-center">
+                <a href="http://chaosanswers.com/" target="_blank">
+                  <h4>Chaos Answers</h4>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=hawaiitass.android.steinwallmodel&hl=en" target="_blank"><i class="download-icon fa fa-android"></i></a>
+                <a href="http://www.windowsphone.com/en-us/store/app/chaos-models/a24b2fad-eee9-4ba5-b875-d5d35f864b68" target="_blank"><i class="download-icon fa fa-windows"></i></a>
+                <p>
+                  Chaos Answers app helps managers know how to adapt their view of changing circumstances quickly and effectively. Our team developed the Android and Windows Phone app.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="col-sm-12 col-md-8 text-center">
+                <a href="http://www.steinwall.com/" target="_blank">
+                  <img src="<?php print url($directory.'/images/screenshots/steinwall-pimm.jpg', array('absolute'=>true)); ?>">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-4 text-center">
+                <a href="http://www.steinwall.com/" target="_blank">
+                  <h4>Steinwall PIMM iPad App</h4>
+                </a>
+                <a href="https://itunes.apple.com/us/app/pimm-app/id640015509?mt=8" target="_blank"><i class="download-icon fa fa-apple"></i></a>
+                <p>
+                  This app plays PIMMs, Production Instructions Multi Media, which are video versions of instruction manuals for parts being produced at Steinwall Incorporated. We developed the iPad app.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div><!-- /.row -->
     </div>
   </div>
   
@@ -435,42 +499,105 @@
           <hr>
         </div>
       </div>
-      <div class="row">
+      <div id="web-slides-nav" class="row">
         <div class="col-sm-6 col-md-3 text-center">
-          <div class="service-item">
-            <a href="http://www.biomanufacturing.org" target="_blank">
-              <img src="<?php print url($directory.'/images/biomanufacturing.png', array('absolute'=>true)); ?>" alt="<?php print t('Biomanufacturing.org'); ?>" height="100" width="174" />
-              <h4>Biomanufacturing.org</h4>
-            </a>
-            <p>This is a National Science Foundation (NSF) funded project. The mission of this project is to coordinate local and regional efforts into a national Biomanufacturing education and training system to promote, create, and sustain a qualified workforce. We have completely re-designed this Web portal using Drupal 7 technology. We re-structured the content and provided a new database structure, enabling greater flexibility and efficiency in maintaining and disseminating the valuable information. We provide support and maintenance of the web portal, including user training, analytics reports, and web security updates.</p>
+          <div class="nav-item">
+            <img src="<?php print url($directory.'/images/shoppingguru.png', array('absolute'=>true)); ?>" alt="<?php print t('Shopping Guru'); ?>" height="100" width="100" />
+            <h4>Shopping Guru App</h4>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 text-center">
-          <div class="service-item">
-            <a href="http://www.yodify.com/" target="_blank">
-              <img src="<?php print url($directory.'/images/yodify.png', array('absolute'=>true)); ?>" alt="<?php print t('Yodify'); ?>" height="100" width="100" />
-              <h4>Yodify</h4>
-            </a>
-            <p style="padding-bottom: 200px;">This web application is dedicated to accountants who suffer from information overload, who are tired of interpreting everything by themselves, and want to go home at a reasonable time. Our team has provided support services, and module development for this Drupal 7 web portal.</p>
+          <div class="nav-item">
+            <img src="<?php print url($directory.'/images/biomanufacturing.png', array('absolute'=>true)); ?>" alt="<?php print t('Biomanufacturing.org'); ?>" height="100" width="174" />
+            <h4>Biomanufacturing.org</h4>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 text-center">
-          <div class="service-item">
-            <a href="http://chaosanswers.com/" target="_blank">
-              <img src="<?php print url($directory.'/images/chaos-answers.png', array('absolute'=>true)); ?>" alt="<?php print t('Chaos Answers'); ?>" height="100" width="100" />
-              <h4>Chaos Answers</h4>
-            </a>
-            <p>Chaos Answers helps managers know how to adapt their view of changing circumstances quickly and effectively. We have developed this web portal in conjunction with the mobile apps that we developed for the same company. We created and continue to manage the database, users, content, and security & analytics of the portal.</p>
+          <div class="nav-item">
+            <img src="<?php print url($directory.'/images/yodify.png', array('absolute'=>true)); ?>" alt="<?php print t('Yodify'); ?>" height="100" width="100" />
+            <h4>Yodify</h4>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 text-center">
-          <div class="service-item">
+          <div class="nav-item">
+            <img src="<?php print url($directory.'/images/chaos-answers.png', array('absolute'=>true)); ?>" alt="<?php print t('Chaos Answers'); ?>" height="100" width="100" />
+            <h4>Chaos Answers</h4>
+          </div>
+        </div>
+        <!--<div class="col-sm-6 col-md-3 text-center">
+          <div class="nav-item">
             <a href="http://greenpowersolutionsllc.com/" target="_blank">
               <img src="<?php print url($directory.'/images/greenpower.jpg', array('absolute'=>true)); ?>" alt="<?php print t('Greenpower Solutions'); ?>" height="100" width="68" />
               <h4>Greenpower Solutions</h4>
             </a>
             <p>This company’s mission is to bring Practical, Affordable and Reliable Renewable Energy Solutions to Hawaii’s energy consumers. We have developed this web portal, and we continue to manage the database, users, content, and security & analytics of the portal.</p>
           </div>
+        </div>-->
+      </div>
+      <div class="row">
+        <div id="web-slides" class="flexslider">
+          <ul class="slides">
+            <li>
+              <div class="col-sm-12 col-md-8 text-center">
+                <a href="http://getshoppingguru.com/" target="_blank">
+                  <img src="<?php print url($directory.'/images/screenshots/shoppingguru.jpg', array('absolute'=>true)); ?>">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-4 text-center">
+                <a href="http://getshoppingguru.com/" target="_blank">
+                  <h4>Shopping Guru App</h4>
+                </a>
+                <p>
+                  This is the website for our app.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="col-sm-12 col-md-8 text-center">
+                <a href="http://www.biomanufacturing.org" target="_blank">
+                  <img src="<?php print url($directory.'/images/screenshots/biomanufacturing.jpg', array('absolute'=>true)); ?>">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-4 text-center">
+                <a href="http://www.biomanufacturing.org" target="_blank">
+                  <h4>Biomanufacturing.org</h4>
+                </a>
+                <p>
+                  This is a National Science Foundation (NSF) funded project. The mission of this project is to coordinate local and regional efforts into a national Biomanufacturing education and training system to promote, create, and sustain a qualified workforce. We have completely re-designed this Web portal using Drupal 7 technology. We re-structured the content and provided a new database structure, enabling greater flexibility and efficiency in maintaining and disseminating the valuable information. We provide support and maintenance of the web portal, including user training, analytics reports, and web security updates.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="col-sm-12 col-md-8 text-center">
+                <a href="http://www.yodify.com/" target="_blank">
+                  <img src="<?php print url($directory.'/images/screenshots/yodify.jpg', array('absolute'=>true)); ?>">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-4 text-center">
+                <a href="http://www.yodify.com/" target="_blank">
+                  <h4>Yodify</h4>
+                </a>
+                <p>
+                  This web application is dedicated to accountants who suffer from information overload, who are tired of interpreting everything by themselves, and want to go home at a reasonable time. Our team has provided support services, and module development for this Drupal 7 web portal.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="col-sm-12 col-md-8 text-center">
+                <a href="http://chaosanswers.com/" target="_blank">
+                  <img src="<?php print url($directory.'/images/screenshots/chaos-answers.jpg', array('absolute'=>true)); ?>">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-4 text-center">
+                <a href="http://chaosanswers.com/" target="_blank">
+                  <h4>Chaos Answers</h4>
+                </a>
+                <p>
+                  Chaos Answers helps managers know how to adapt their view of changing circumstances quickly and effectively. We have developed this web portal in conjunction with the mobile apps that we developed for the same company. We created and continue to manage the database, users, content, and security & analytics of the portal.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

@@ -874,14 +874,17 @@
   <div id="meet-us" class="gray-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-md-offset-4 text-center">
-          <h2>About Us</h2>
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <h2>
+            About Us<br>
+            <small> Trustworthy &amp; Affordable Software Services</small>
+          </h2>
           <hr>
         </div>
       </div>
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-justify">
-          Hawaii TASS has been founded by Dr. Shawon Rahman (Associate Professor of Computer Science, Univ of Hawaii-Hilo) in June 2012. Hawaii TASS has already established a good reputation in providing higher-quality work, reliability, and fairness within very short time. We have a skilled team of developers who develop various types of Mobile Apps and web-based software including iOS apps, Windows phone, iPad, etc. apps. Currently more than 10 persons are working in our company including two current students and one graduated student from University of Hawaii. Most of our developers have a MS or Ph.D. degree in Computer Science or Software Engineering. Our developers work from Hawaii or mainland USA. 
+          TASS has been founded by Dr. Shawon Rahman (Associate Professor of Computer Science, Univ of Hawaii-Hilo) in June 2012. TASS has already established a good reputation in providing higher-quality work, reliability, and fairness within very short time. We have a skilled team of developers who develop various types of Mobile Apps and web-based software including iOS apps, Windows phone, iPad, etc. apps. Currently more than 10 persons are working in our company including two current students and one graduated student from University of Hawaii. Most of our developers have a MS or Ph.D. degree in Computer Science or Software Engineering. Our developers work from Hawaii or mainland USA. 
         </div>
       </div>
       <br>

@@ -1195,7 +1195,11 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 
 }
 
-.red-section{
+.img-box-shadow{
+  box-shadow: 2px 2px #4794b3;
+}
+
+.blue-section{
   background: #4ea1c2 url('images/small-water.jpg') repeat;
   border-bottom: 5px solid #55b0d4;
   border-top: 5px solid #55b0d4;
@@ -1204,21 +1208,21 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   text-shadow: 2px 2px #4794b3;
 }
 
-.img-box-shadow{
-  box-shadow: 2px 2px #4794b3;
-}
-
-.red-section a{
+.blue-section a{
   color: white;
+  -webkit-transition: color .15s, background .15s, font-size .25s;
+  transition: color .15s, background .15s, font-size .25s;
 }
-.red-section small{
+.blue-section small{
   color: #eee;
 }
 
-.red-section a:hover{
+.blue-section a:hover{
   color: #0b506b;
-  -webkit-transition: color .25s;
-  transition: color .25s;
+  text-shadow: 1px 1px #3d7f99;
+  font-size: 1.05em;
+  -webkit-transition: color .15s, background .15s, font-size .25s;
+  transition: color .15s, background .15s, font-size .25s;
 }
 
 .gray-section {
@@ -1328,6 +1332,17 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   background-size: cover;
 }
 
+.callout-7 {
+  color: #1c6c8c;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url('images/crumpled-paper.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .header-bg {
   color: #ffffff;
   display: table;
@@ -1445,8 +1460,12 @@ q > cite:before{
   transition: color 1s, border-color 1s;
 }
 
+a:hover .circle-icon {
+  background: rgba(255,255,255,.25);
+}
+
 a:hover .circle-mobile-icon{
-  color: #4c5f66;
+  color: #607780;
   border-color: #1c6c8c;
   -webkit-transition: color .75s, border-color .25s;
   transition: color .75s, border-color .25s;
@@ -1459,23 +1478,18 @@ a:hover .circle-web-icon{
   transition: color .75s, border-color .25s;
 }
 
-a:hover .circle-tax-icon{
-  color: #e5e167;
+a:hover .circle-game-icon{
+  color: #e56767;
   border-color: #1c6c8c;
   -webkit-transition: color .75s, border-color .25s;
   transition: color .75s, border-color .25s;
 }
 
-.accounting-icon{
-  color: #e5e167;
-}
-
-.bookkeeping-icon{
-  color: #4c5f66;
-}
-
-.CPA-icon{
-  color: #eee;
+a:hover .circle-database-icon{
+  color: #67e5e1;
+  border-color: #1c6c8c;
+  -webkit-transition: color .75s, border-color .25s;
+  transition: color .75s, border-color .25s;
 }
 
 a.btn{
@@ -1523,6 +1537,10 @@ a.btn{
   height: 100%;
   width: 100%;
 }*/
+
+.icon-item{
+  padding-bottom: 2em;
+}
 
 .img-responsive{
   margin:auto;

@@ -74,7 +74,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand scroll" href="#home">Hawaii Tax, Accounting & Software Services</a>
+      <a class="navbar-brand scroll" href="#home">TASS USA</a>
       <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
     </div>
 
@@ -83,10 +83,11 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#home" class="scroll">Home</a></li>
         <li><a href="#mobile" class="scroll">Mobile Apps</a></li>
-        <li><a href="#web" class="scroll">Web Development</a></li>
-        <li><a href="#tax" class="scroll">Tax &amp; Accounting</a></li>
-        <li><a href="#meet-us" class="scroll">About Us</a></li>
-        <li><a href="#contact" class="scroll">Contact Us</a></li>
+        <li><a href="#web" class="scroll">Web</a></li>
+        <li><a href="#games" class="scroll">Game Dev.</a></li>
+        <li><a href="#database" class="scroll">Data Mining</a></li>
+        <li><a href="#meet-us" class="scroll">About</a></li>
+        <li><a href="#contact" class="scroll">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
@@ -151,7 +152,7 @@
     </div>
   <?php endif; ?>
   
-  <div id="intro" class="red-section">
+  <div id="intro" class="blue-section">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
@@ -160,8 +161,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4 text-center">
-          <div class="service-item">
+        <div class="col-sm-3 text-center">
+          <div class="icon-item">
             <a href="#mobile" class="scroll">
               <i class="circle-icon circle-mobile-icon fa fa-mobile"></i>
               <h4>
@@ -171,8 +172,8 @@
             </a>
           </div>
         </div>
-        <div class="col-sm-4 text-center">
-          <div class="service-item">
+        <div class="col-sm-3 text-center">
+          <div class="icon-item">
             <a href="#web" class="scroll">
               <i class="circle-icon circle-web-icon fa fa-globe"></i>
               <h4>
@@ -182,14 +183,25 @@
             </a>
           </div>
         </div>
-        <div class="col-sm-4 text-center">
-          <div class="service-item">
-            <a href="#tax" class="scroll">
-              <i class="circle-icon circle-tax-icon fa fa-usd"></i>
+        <div class="col-sm-3 text-center">
+          <div class="icon-item">
+            <a href="#games" class="scroll">
+              <i class="circle-icon circle-game-icon fa fa-gamepad"></i>
               <h4>
-                Tax & Accounting
+                Game Development
               </h4>
-              <div>Tax & Accounting services</div>
+              <div>2D and 3D Game Development</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-3 text-center">
+          <div class="icon-item">
+            <a href="#database" class="scroll">
+              <i class="circle-icon circle-database-icon fa fa-database"></i>
+              <h4>
+                Data Mining
+              </h4>
+              <div>Database Design, Development, and Data Mining</div>
             </a>
           </div>
         </div>
@@ -203,7 +215,7 @@
     </div>
   </div>
   
-  <div id="mobile" class="red-section">
+  <div id="mobile" class="blue-section">
     <div class="container">
       <div class="row">
         <div class="col-md-10">
@@ -215,7 +227,7 @@
           </div>
           <div class="row">
             <div class="col-sm-4 col-sm-offset-2 col-md-2 col-md-offset-2 text-center">
-              <div class="service-item">
+              <div class="icon-item">
                 <i class="giant-icon fa fa-android"></i>
                 <h4>
                   Android<br>
@@ -224,7 +236,7 @@
               </div>
             </div>
             <div class="col-sm-4 col-md-2 text-center">
-              <div class="service-item">
+              <div class="icon-item">
                 <i class="giant-icon fa fa-apple"></i>
                 <h4>
                   iOS<br>
@@ -233,7 +245,7 @@
               </div>
             </div>
             <div class="col-sm-4 col-sm-offset-2 col-md-2 col-md-offset-0 text-center">
-              <div class="service-item">
+              <div class="icon-item">
                 <i class="giant-icon fa fa-windows"></i>
                 <h4>
                   Windows Phone<br>
@@ -242,7 +254,7 @@
               </div>
             </div>
             <div class="col-sm-4 col-md-2 text-center">
-              <div class="service-item">
+              <div class="icon-item">
                 <i class="giant-icon fa fa-mobile"></i>
                 <h4>
                   BlackBerry<br>
@@ -292,25 +304,25 @@
           </div>
         </div> -->
         <div class="col-sm-6 col-md-3 text-center">
-          <div class="nav-item">
+          <div class="nav-item icon-item">
             <img src="<?php print url($directory.'/images/shoppingguru.png', array('absolute'=>true)); ?>" alt="<?php print t('Shopsuey'); ?>" height="144" width="144" />
             <h4>ShoppingGuru</h4>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 text-center">
-          <div class="nav-item">
+          <div class="nav-item icon-item">
             <img src="<?php print url($directory.'/images/steinwall.png', array('absolute'=>true)); ?>" alt="<?php print t('Steinwall Inc.'); ?>" height="144" width="144" />
             <h4>Steinwall Plastic Matrix</h4>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 text-center">
-          <div class="nav-item">
+          <div class="nav-item icon-item">
             <img src="<?php print url($directory.'/images/chaos-answers.png', array('absolute'=>true)); ?>" alt="<?php print t('Chaos Answers'); ?>" height="144" width="144" />
             <h4>Chaos Answers</h4>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 text-center">
-          <div class="nav-item">
+          <div class="nav-item icon-item">
             <img src="<?php print url($directory.'/images/pimm.png', array('absolute'=>true)); ?>" alt="<?php print t('Steinwall Inc.'); ?>" height="144" width="144" />
             <h4>Steinwall PIMM iPad App</h4>
           </div>
@@ -399,7 +411,7 @@
     </div>
   </div>
   
-  <div id="web" class="red-section">
+  <div id="web" class="blue-section">
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-md-offset-4 text-center">
@@ -409,8 +421,8 @@
       </div>
       <div class="row">
         <div class="col-sm-4 text-center">
-          <div class="service-item">
-            <h4>Graphics & Design</h4>
+          <div class="icon-item">
+            <h4>Graphics &amp; Design</h4>
           </div>
           <ul>
             <li>Graphics and Logo design</li>
@@ -418,7 +430,7 @@
           </ul>
         </div>
         <div class="col-sm-4 text-center">
-          <div class="service-item">
+          <div class="icon-item">
             <h4>Development</h4>
           </div>
           <ul>
@@ -428,8 +440,8 @@
           </ul>
         </div>
         <div class="col-sm-4 text-center">
-          <div class="service-item">
-            <h4>Performance & Maintainence</h4>
+          <div class="icon-item">
+            <h4>Performance &amp; Maintainence</h4>
           </div>
           <ul>
             <li>Search Engine Optimization (SEO)</li>
@@ -447,25 +459,25 @@
       </div>
       <div class="row">
         <div class="col-sm-2 col-sm-offset-2 text-center">
-          <div class="service-item">
+          <div class="icon-item">
             <img class="img-responsive" src="<?php print url($directory.'/images/drupal.png', array('absolute'=>true)); ?>" alt="<?php print t('Drupal'); ?>" height="144" width="144" />
             <h4>Drupal</h4>
           </div>
         </div>
         <div class="col-sm-2 text-center">
-          <div class="service-item">
+          <div class="icon-item">
             <img class="img-responsive" src="<?php print url($directory.'/images/wordpress.png', array('absolute'=>true)); ?>" alt="<?php print t('Wordpress'); ?>" height="144" width="144" />
             <h4>Wordpress</h4>
           </div>
         </div>
         <div class="col-sm-2 text-center">
-          <div class="service-item">
+          <div class="icon-item">
             <img class="img-responsive" src="<?php print url($directory.'/images/joomla.png', array('absolute'=>true)); ?>" alt="<?php print t('Joomla'); ?>" height="144" width="144" />
             <h4>Joomla</h4>
           </div>
         </div>
         <div class="col-sm-2 text-center">
-          <div class="service-item">
+          <div class="icon-item">
             <img class="img-responsive" src="<?php print url($directory.'/images/globe.png', array('absolute'=>true)); ?>" alt="<?php print t('Custom'); ?>" height="144" width="144" />
             <h4>Custom Design</h4>
           </div>
@@ -593,7 +605,7 @@
                   <h4>Chaos Answers</h4>
                 </a>
                 <p>
-                  Chaos Answers helps managers know how to adapt their view of changing circumstances quickly and effectively. We have developed this web portal in conjunction with the mobile apps that we developed for the same company. We created and continue to manage the database, users, content, and security & analytics of the portal.
+                  Chaos Answers helps managers know how to adapt their view of changing circumstances quickly and effectively. We have developed this web portal in conjunction with the mobile apps that we developed for the same company. We created and continue to manage the database, users, content, and security &amp; analytics of the portal.
                 </p>
               </div>
             </li>
@@ -602,77 +614,205 @@
       </div>
     </div>
   </div>
-  
-  <div class="callout-1">
+
+  <div class="callout-7">
     <div class="vert-text">
-      <p class="huge">Never settle for less</p>
+      <p class="huge">Maximize User Engagement and Enjoyment</p>
     </div>
   </div>
-  
-  <div id="tax" class="red-section">
+
+  <div id="games" class="blue-section">
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-md-offset-4 text-center">
-          <h2>Tax & Accounting</h2>
+          <h2>Game Development</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="row text-center">
+            <h4>2D Technologies</h4>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-7">Design interactive games using sharp, fast and efficient 2D technologies that can adjust to any screen size. Develop graphics for mobile games/apps.</div>
+            <ul class="col-xs-5 breakdown-bullets">
+              <li>SVG and HTML5</li>
+              <li>HTML5 Canvas</li>
+              <li>Flash</li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="col-sm-4 text-center">
+          <div class="icon-item">
+            <h4>Gamification</h4>
+          </div>
+          <br>
+          <ul>
+            <li>Apply game mechanics to your products to drive user engagement.</li>
+            <li>Design educational games that facilitate learning.</li>
+          </ul>
+        </div> -->
+        <div class="col-sm-6">
+          <div class="row text-center">
+            <h4>3D Technologies</h4>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-7">Immersive 3D graphics allow the user to jump in, and get a realworld perspective.</div>
+            <ul class="col-xs-5 breakdown-bullets">
+              <li>Unity</li>
+              <li>Canvas + WebGL using Three.js</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="gray-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <h3>Leverage Modern Game Technologies</h3>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-lg-2 col-sm-4 text-center">
+        <div class="icon-item">
+            <img class="img-responsive" src="<?php print url($directory.'/images/svg.png', array('absolute'=>true)); ?>" alt="<?php print t('SVG'); ?>" height="144" width="144" />
+            <h4>SVG</h4>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 text-center">
+          <div class="icon-item">
+            <img class="img-responsive" src="<?php print url($directory.'/images/canvas.png', array('absolute'=>true)); ?>" alt="<?php print t('Canvas'); ?>" height="144" width="144" />
+            <h4>Canvas</h4>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 text-center">
+          <div class="icon-item">
+            <img class="img-responsive" src="<?php print url($directory.'/images/html5.png', array('absolute'=>true)); ?>" alt="<?php print t('HTML5'); ?>" height="144" width="144" />
+            <h4>HTML5</h4>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 text-center">
+          <div class="icon-item">
+            <img class="img-responsive" src="<?php print url($directory.'/images/css3.png', array('absolute'=>true)); ?>" alt="<?php print t('CSS3'); ?>" height="144" width="144" />
+            <h4>CSS3</h4>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 text-center">
+          <div class="icon-item">
+            <img class="img-responsive" src="<?php print url($directory.'/images/Flash.png', array('absolute'=>true)); ?>" alt="<?php print t('Flash'); ?>" height="144" width="144" />
+            <h4>Flash</h4>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 text-center">
+          <div class="icon-item">
+            <img class="img-responsive" src="<?php print url($directory.'/images/unity.png', array('absolute'=>true)); ?>" alt="<?php print t('Unity'); ?>" height="144" width="144" />
+            <h4>Unity</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout-1">
+    <div class="vert-text">
+      <p class="huge">Bring your data to life</p>
+    </div>
+  </div>
+  
+  <div id="database" class="blue-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+          <h2>Data Mining</h2>
           <hr>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-6">
           <div class="row text-center">
-            <i class="accounting-icon medium-icon fa fa-dollar"></i>
-            <h4>Tax & CPA Services</h4>
+            <i class="medium-icon fa fa-database"></i>
+            <h4>Database Design &amp; Development</h4>
           </div>
           <br>
           <div class="row">
-            <div class="col-xs-6">Our CPA and other associates are experienced in US, Canadian, and Asian countries tax procedures and regulations. Our team will handle filing your taxes, help you save money by preventing costly mistakes, free up your time, and allow you to focus on running your business.</div>
+            <div class="col-xs-6">
+              Our team is adept at developing thorough and efficient database schemas that meet your specific needs.
+            </div>
             <ul class="col-xs-6 breakdown-bullets">
-              <li>Individual Taxes</li>
-              <li>Corporate/Business Taxes</li>
-              <li>Sales Taxes</li>
-              <li>International Taxes</li>
+              <li>Capture and store your valuable data.</li>
+              <li>Facilitate efficient storage and retrieval.</li>
+              <li>Secure designs that protect your data and users.</li>
+              <li>Easily track users, inventory, employees, etc.</li>
             </ul>
           </div>
         </div>
         <div class="col-sm-12 col-md-6">
           <div class="row text-center">
-            <i class="bookkeeping-icon medium-icon fa fa-book"></i>
-            <h4>Accounting & Bookkeeping</h4>
+            <i class="medium-icon fa fa-table"></i>
+            <h4>Data Mining &amp; Analysis</h4>
           </div>
           <br>
           <div class="row">
-            <div class="col-xs-6">Businesses rely on accurate and insightful financial information in order to maintain profitability and capitalize on new opportunities. We have an outstanding team of individuals with wide areas of expertise in US and Canadian accounting. Our firm provides full cycle of accounting services to achieve your goals through accurate record-keeping and on-time reporting. Our services include but are not limited to:</div>
+            <div class="col-xs-6">
+            Represent your data in new ways that make it easier to understand. Gain new understanding of your information through data extraction and analysis techniques.
+            </div>
             <ul class="col-xs-6 breakdown-bullets">
-              <li>General ledger and financial reports preparation following US and Canadian GAAP</li>
-              <li>Bookkeeping (Monthly, quarterly, or annual)</li>
-              <li>Accounting system setup and support</li>
-              <li>Payroll processing</li>
-              <li>Cash flow budgeting and forecasting</li>
-              <li>Personal financial statements</li>
-              <li>Employee benefit and profit-sharing plans</li>
-              <li>Corporate tax planning and return preparation</li>
-              <li>Litigation support</li>
+              <li>Restructure your data into easily accessible views.</li>
+              <li>Extract patterns and features from your data.</li>
+              <li>Plot graphs and analyze statistics.</li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
-  <!--
+
   <div class="gray-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 col-md-offset-2 text-center">
-          <q>
-            <big>Happy customer says you are the best!</big>
-            <cite>Happy Customer</cite>
-          </q>
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <h3>Professional Database Technology</h3>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-2 col-sm-offset-1 text-center">
+          <div class="icon-item">
+            <img class="img-responsive" src="<?php print url($directory.'/images/mysql.png', array('absolute'=>true)); ?>" alt="<?php print t('MySQL'); ?>" height="144" width="144" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-2 text-center">
+          <div class="icon-item">
+            <img class="img-responsive" src="<?php print url($directory.'/images/postgresql.png', array('absolute'=>true)); ?>" alt="<?php print t('PostgreSQL'); ?>" height="144" width="144" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-2 text-center">
+          <div class="icon-item">
+            <img class="img-responsive" src="<?php print url($directory.'/images/mssql.png', array('absolute'=>true)); ?>" alt="<?php print t('Microsoft SQL'); ?>" height="144" width="144" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-2 text-center">
+          <div class="icon-item">
+            <img class="img-responsive" src="<?php print url($directory.'/images/filemaker.png', array('absolute'=>true)); ?>" alt="<?php print t('Filemaker Pro'); ?>" height="144" width="144" />
+            <h4>Filemaker Pro</h4>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-2 text-center">
+          <div class="icon-item">
+            <img class="img-responsive" src="<?php print url($directory.'/images/access.png', array('absolute'=>true)); ?>" alt="<?php print t('Microsoft Access'); ?>" height="144" width="144" />
+            <h4>Microsoft Access</h4>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  -->
   
   <div id="map" class="map">
     <!--<iframe width="100%" height="100%" scroll="no" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://mapsengine.google.com/map/embed?mid=zsFsERRO3dk8.kJ8E27VrR51s"></iframe>-->

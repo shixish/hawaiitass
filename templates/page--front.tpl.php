@@ -98,7 +98,7 @@
       <div class="row">
         <div id="logo" class="site-branding col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
           <div id="site-logo-big"><!-- class="hidden-xs" -->
-            <img class="img-responsive" src="<?php print url($directory.'/images/header.png', array('absolute'=>true)); ?>" alt="<?php print t('Home'); ?>" />
+            <img class="img-responsive" src="<?php print url($directory.'/images/header-2.0.png', array('absolute'=>true)); ?>" alt="<?php print t('Home'); ?>" />
           </div>
           <!-- <div id="site-logo-small" class="visible-xs">
             <img class="img-responsive" src="<?php print url($directory.'/images/TASS-cellphone-small.png', array('absolute'=>true)); ?>" alt="<?php print t('Home'); ?>" />
